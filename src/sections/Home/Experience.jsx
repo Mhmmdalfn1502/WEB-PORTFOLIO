@@ -63,7 +63,7 @@ export default function Experience({ id }) {
     <div id={id} className="grid lg:grid-cols-2 grid-cols-1 h-screen text-white px-6 lg:px-30 pt-20">
       <div className="flex flex-col justify-between">
         <div className="flex flex-col">
-          <span className="text-[48px] mb-4 font-black block text-start">Experience</span>
+          <span className="text-[48px] mb-4 font-black block text-start">Experiences</span>
           <p className="text-[16px] font-medium text-gray-500 mt-2 w-[80%]">{descProject["Graphic Design"]}</p>
         </div>
 
