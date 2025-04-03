@@ -37,6 +37,11 @@ export default function Experience({ id }) {
         images: ["SERTIFIKATPELATIHAN1.png"],
         description: "Completed a Front-End Developer Training Program | February 2024",
       },
+      {
+        title: "Designer Graphic Internship",
+        images: ["INTERSHIP.png"],
+        description: "Designer Graphic Internship at Bestari Property | July 13, 2024 - January 13, 2025",
+      },
     ],
   };
   
