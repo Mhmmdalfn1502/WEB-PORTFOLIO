@@ -39,7 +39,7 @@ export default function Experience({ id }) {
       },
       {
         title: "Designer Graphic Internship",
-        images: ["INTERSHIP.png"],
+        images: ["INTERSHIP.jpg"],
         description: "Designer Graphic Internship at Bestari Property | July 13, 2024 - January 13, 2025",
       },
     ],
