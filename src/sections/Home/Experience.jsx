@@ -69,7 +69,7 @@ export default function Experience({ id }) {
       <div className="flex flex-col justify-between">
         <div className="flex flex-col">
           <span className="text-[48px] mb-4 font-black block text-start">Experiences</span>
-          <p className="text-[16px] font-medium text-gray-500 mt-2 w-[80%]">{descProject["Graphic Design"]}</p>
+          <p className="text-[16px] font-medium text-gray-500 mt-2 w-full lg:w-[80%]">{descProject["Graphic Design"]}</p>
         </div>
 
         {/* Kategori Filter */}
