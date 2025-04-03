@@ -86,7 +86,7 @@ export default function Project({ id }) {
         <div className="flex flex-col">
           <span className="text-[48px] mb-4 font-black block text-start">Projects</span>
           <span className="text-[20px] font-medium">{selectedCategory}</span>
-          <p className="text-[16px] font-medium text-gray-500 mt-2 w-[80%]">{descProject[selectedCategory]}</p>
+          <p className="text-[16px] font-medium text-gray-500 mt-2 w-full lg:w-[80%]">{descProject[selectedCategory]}</p>
         </div>
 
         {/* Kategori Filter */}
