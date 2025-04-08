@@ -6,7 +6,7 @@ import { FaSquareThreads } from "react-icons/fa6";
 
 export default function Contact({ id }) {
   return (
-    <div id={id} className="flex px-6 lg:px-30 py-20 w-screen">
+    <div id={id} className="flex px-6 lg:px-30 py-20 w-screen animate-parallax">
       <div className="flex flex-col w-screen">
         <span className="text-[48px] font-black">Contact</span>
         <br />

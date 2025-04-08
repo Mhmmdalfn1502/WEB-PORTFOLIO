@@ -7,6 +7,18 @@
 #8B80A3 GRAY
  */
 
+ @keyframes parallax {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50px);
+  }
+}
+
+.animate-parallax {
+  animation: parallax 1s ease-out forwards;
+}
 
  
 :root {

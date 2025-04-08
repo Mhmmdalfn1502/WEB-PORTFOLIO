@@ -14,11 +14,11 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="text-white fixed w-full px-6 md:px-16 lg:pt-6 lg:px-32 py-4 bg-transparent backdrop-blur-lg z-50">
+    <nav className="text-white fixed w-full px-6 md:px-16 lg:pt-14 lg:px-32 py-4 bg-transparent backdrop-blur-lg z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="text-xl font-bold text-white text-[16px]">
-          Portfolio Muhammad Alfan
+        <div className="text-xl font-bold text-white text-[16px] hover:rotate-12 hover:scale-150 transition-all duration-300">
+          <img src="Logo.png" alt="" className="w-[30px]" />
         </div>
 
         {/* Menu Desktop */}

@@ -44,20 +44,6 @@ export default function Project({ id }) {
         description:
           "Info-Kuliner is a culinary website that helps users find information about dining places in various regions. Additionally, the platform provides top food recommendations based on reviews and popularity, making it easy for users to discover the best places to eat according to their preferences.",
       },
-      {
-        title: "Intellect.ai",
-        images: ["intellect.ai.png"],
-        link: "https://intellect-ai-five.vercel.app/",
-        description:
-          "Intellect.ai is a logo analysis platform designed to help designers evaluate their logo designs. Using graphic design principles, this website analyzes visual elements such as balance, contrast, alignment, and readability, ensuring that the logo adheres to professional design standards.",
-      },
-      {
-        title: "Info-Kuliner",
-        images: ["infokuliner.png"],
-        link: "https://info-kuliner.vercel.app/",
-        description:
-          "Info-Kuliner is a culinary website that helps users find information about dining places in various regions. Additionally, the platform provides top food recommendations based on reviews and popularity, making it easy for users to discover the best places to eat according to their preferences.",
-      },
     ],
   };
 
@@ -81,7 +67,7 @@ export default function Project({ id }) {
   };
 
   return (
-    <div id={id} className="grid lg:grid-cols-2 grid-cols-1 h-screen text-white px-6 lg:px-30 pt-20">
+    <div id={id} className="grid lg:grid-cols-2 grid-cols-1 h-screen text-white px-6 lg:px-30 pt-20 lg:mb-10">
       <div className="flex flex-col justify-between">
         <div className="flex flex-col">
           <span className="text-[48px] mb-4 font-black block text-start">Projects</span>
