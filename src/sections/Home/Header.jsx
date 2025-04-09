@@ -23,7 +23,7 @@ export default function Header({ id }) {
               >
                 HI, I'M 
               </span>
-              <span className="text-[24px] lg:text-[48px] font-black leading-18 text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-500 to-white animate-gradient -mt-10 lg:mt-0 ml-4"> MUHAMMAD ALFAN</span>
+              <span className="text-[24px] lg:text-[48px] font-black leading-18 text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-500 to-white animate-gradient -mt-10 lg:mt-0 ml-0 lg:ml-4"> MUHAMMAD ALFAN</span>
             </div>
             <div className="flex flex-col lg:flex-row -mt-10 lg:mt-0">
               <span
@@ -34,7 +34,7 @@ export default function Header({ id }) {
               >
                 AND YOU CAN CALL ME
               </span>
-              <span className="text-[24px] lg:text-[48px] font-black leading-18 text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-500 to-white animate-gradient -mt-10 lg:mt-0 ml-4"> ALFAN</span>
+              <span className="text-[24px] lg:text-[48px] font-black leading-18 text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-500 to-white animate-gradient -mt-10 lg:mt-0 ml-0 lg:ml-4"> ALFAN</span>
             </div>
           </div>
           <div className="w-full flex flex-col -mt-4 lg:mt-0">
