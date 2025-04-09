@@ -14,7 +14,7 @@ export default function About({ id }) {
           and engagement.
         </p>
         <a
-          href="CV_Muhammad Alfan_2024.pdf"
+          href="CV_2025.pdf"
           download="Muhammad_Alfan_CV.pdf"
           className="flex items-center justify-center gap-2 mt-6 w-[150px] py-3 text-sm font-semibold text-white bg-gradient-to-r from-white/10 to-gray-100/20 rounded-full shadow-md transition-transform transform hover:scale-105 hover:shadow-lg hover:text-gray-300"
         >
